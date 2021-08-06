@@ -1,0 +1,12 @@
+class Temperature:
+    def convertfahrenheit(self,celsius):
+        self.celsius=celsius
+        fahren=(self.celsius * 1.8000)+ 32.00
+        print(fahren)
+    def convertcelsius(self,fahrenheit):
+        self.fahrenheit=fahrenheit
+        cel=(self.fahrenheit-32)*5/9
+        print(cel)
+obj=Temperature()
+obj.convertfahrenheit(32)
+obj.convertcelsius(33)
